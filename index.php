@@ -6,7 +6,7 @@ include('Mail/mime.php');
 
 // Constructing the email
 $sender = "precious.george.o@gmail.com";
-$recipient = "precious.george.o@gmail.com";
+$recipient = "riomachi@gmail.com";
 $subject = "Application For the Position of CTO";
 // smtp mail server - get from your hosts
 $host = 'smtp.mcomm.ca';
@@ -18,7 +18,8 @@ $crlf = "\
 $headers = array(
 	'From'          => $sender,
 	'Return-Path'   => $sender,
-	'Subject'       => $subject
+	'Subject'       => $subject,
+    'cc'            => 'doctorfox29@yahoo.co.uk'
 	);
 
 // Creating the Mime message
