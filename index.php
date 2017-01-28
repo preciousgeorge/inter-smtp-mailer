@@ -23,7 +23,24 @@ $headers = array(
 
 // Creating the Mime message
 $mime = new Mail_mime($crlf);
-$message = "<h1>Hello all</h1>";
+$message = "<h1>Good Morning</h1>
+            <br />
+            <br />
+                 <p>As subject refers i would like to apply for the position of Chief Technical Adviser
+                 <br />
+                 at PrepClass. My passion for eduction and programming make PrepClass the place where<br />
+                 I believe my skills can be properly harnessed. I hope you would give me the opportunity
+                 <br />
+                 to be part of your team. Your Kind consideration would be gladly appreciated.
+                 </p>
+
+                 <br />
+                 <br />
+                 <br />
+                 Regards
+                 <br />
+                 Precious O. George
+                 ";
 
 // Setting the body of the email
 //$mime->setTXTBody($text);
