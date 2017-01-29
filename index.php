@@ -9,10 +9,10 @@ $sender = "precious.george.o@gmail.com";
 $recipient = "riomachi@gmail.com";
 $subject = "Application For the Position of CTO";
 // smtp mail server - get from your hosts
-$host = 'smtp.mcomm.ca';
-$username = "pgeorge@mcomm.ca";
+$host = 'smtp.host.com';
+$username = "smtpuser";
 // Sender email address password
-$password = "trojian@44SSL";
+$password = "smtp_password";
 $crlf = "\
 ";
 $headers = array(
